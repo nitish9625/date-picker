@@ -1,0 +1,13 @@
+
+<!-- Date picker section -->
+<mat-form-field>
+  <input matInput [matDatepicker] = 'datepicker' placeholder="Select Date">
+  <mat-datepicker-toggle matSuffix [for] = "datepicker"></mat-datepicker-toggle>
+  <mat-datepicker #datepicker></mat-datepicker>  
+</mat-form-field>
+
+<!-- Time picker section -->
+
+<input [ngxTimepicker]="picker" placeholder="Select time">
+<ngx-material-timepicker #picker></ngx-material-timepicker>
+
